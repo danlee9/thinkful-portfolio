@@ -1,0 +1,130 @@
+
+
+body {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+h3 {
+  font-size:1em;
+  color: green;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-weight: 300;
+}
+p {
+  font-size: 0.7em;
+  /*text-shadow: 1px 1px 1px #000;*/
+}
+ul {
+  margin-left: -0.5em;
+}
+li {
+  display: inline;
+  font-size: 0.7em;
+}
+a {
+  color: #ffcf33;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+span {
+  color: dodgerblue;
+  font-weight: 600;
+  font-size: 1.3em;
+}
+.masthead {
+  border-top: 0.9em solid dodgerblue;
+  color: dodgerblue;
+  background-image: url(https://unsplash.imgix.net/photo-1415033523948-6c31d010530d?q=75&fm=jpg&s=559455b1ad675f8dc95a04528044f870);
+  background-position: 0 -320px;
+  /*background-size: cover;*/
+  background-repeat: no-repeat;
+  height: 22em;
+  text-align: center;
+  padding: 6em 0;
+}
+.masthead-intro {
+  font-size: 2em;
+  margin-top: 2em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+}
+.masthead-heading {
+  font-size: 6em;
+  margin-top: -0.5em;
+  /*text-transform: uppercase;*/
+  font-weight: bold;
+  letter-spacing: -0.02em;
+}
+.introduction,
+.where,
+.me,
+.projects {
+  max-width: 26em;
+  font-size: 1.8em;
+  margin: 2em auto 0 auto;
+}
+.projects ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.projects h3 {
+  font-size: 1.3em;
+}
+.projects li {
+  display: block;
+  margin-bottom: 5em;
+}
+.projects a:hover {
+  color: dodgerblue;
+  text-decoration: none;
+}
+.projects img {
+  width: 26em;
+}
+.footer-content {
+  height: 10em;
+  background-color: dodgerblue;
+  font-size: 1.8em;
+  text-align: center;
+}
+.hi {
+  padding-top: 5em;
+  font-family: Arial;
+  font-size: 0.6em;
+  color: white;
+}
+.covercred {
+  color: white;
+  margin-left: 0.8em;
+  font-size: 0.6em;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+  .masthead-heading {
+    font-size: 3em;
+  }
+  .masthead {
+    padding: 3em 0 1em 0;
+  }
+  section {
+    font-size: 0.3em;
+    padding: 0 .6em;
+  }
+  h2 {
+    font-size: 0.8em;
+  }
+  section h3 {
+    font-size: 0.7em;
+  }
+  section p {
+    font-size: 0.6em;
+    margin-top: -0.3em;
+  }
+    
+}
